@@ -17,7 +17,7 @@ while (j<=15);
 
 const numbers=[23, 44, 123, 234, 765, 1023, 2368]
 for (let k=0; k<numbers.length; k++) {
-    if (numbers[k] % 2 === 0) {
+    if (numbers[k] % 2 !== 0) {
         console.log(numbers[k]);
     }
 }
