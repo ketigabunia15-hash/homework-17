@@ -8,3 +8,10 @@ while (i<=10) {
     i++;
 }
 
+let j=0;
+do{
+    console.log(j);
+    j++;
+}
+while (j<=15);
+
